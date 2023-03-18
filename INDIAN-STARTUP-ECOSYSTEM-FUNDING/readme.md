@@ -3,3 +3,22 @@ In this project, I analyze funding received by start-ups in India from 2018 to 2
 
 As the Data Analyst for this project, I will develop a null and alternate hypothesis,  ask business questions, explore the datasets, clean and prepare the datasets, analyze the final prepared dataset and tell compelling stories with intuitive and appropraite visulaizations.
 
+
+## SUMMARY
+
+
+
+
+
+## SETUP
+
+
+
+## APP EXECUTION
+
+
+
+## AUTHOR
+Elvis Darko
+
+elvis_darko@outlook.com
