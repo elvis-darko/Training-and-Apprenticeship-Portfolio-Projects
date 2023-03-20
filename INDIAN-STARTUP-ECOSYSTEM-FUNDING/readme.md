@@ -21,7 +21,7 @@ As the Data Analyst for this project, I will develop a null and alternate hypoth
 
 
 ## TEAM ZURICH
-As part of the requirements of the training and apprenticeship program, this project was undertaken by a team of six(6) data analysts from different countries. Together, we formed Team Zurich. The project was undertaken with high collaboration, dedication and research.
+As part of the requirements for the training and apprenticeship program, this project was undertaken by a team of six(6) data analysts from different countries. Together, we formed Team Zurich. The project was undertaken with high collaboration, dedication and research.
 The team regularly met on Microsoft Teams and used WhatsApp Messenger for direct messaging outside meeting times. 
 
 The Team Lead was Elvis Darko(me).
@@ -36,7 +36,7 @@ The Members of Team Zurich were;
 
 - Faith Berida                    -   Nigeria
 
-- Aliyyah Adebayo                 -   Nigeria
+- Aliyyah Adebayo                 -  Nigeria
 
 - Yollam Chilenje Manda           -   Malawi
 
