@@ -7,8 +7,8 @@ The table below shows the names, description, status and tools used for projects
 
 | S/N | PROJECT NAME | DESCRIPTION | STATUS | TOOLS |
 |-----|--------------|-------------|---------|-------|
-|[LP1](https://github.com/elvis-darko/Training-and-Apprenticeship-Portfolio-Projects/tree/main/INDIAN-STARTUP-ECOSYSTEM-FUNDING)|     [Indian Start-up Ecosystem Funding](https://github.com/elvis-darko/Training-and-Apprenticeship-Portfolio-Projects/tree/main/INDIAN-STARTUP-ECOSYSTEM-FUNDING)        |  This Project analyzes funding received by start-ups in India from 2018 to 2021. Analysis is made in a Jupyter notebook. Microsoft Power BI is used for insights visualizatons       |  Ongoing      |  Jupyter Notebook, Python, Power BI|
-|LP2|              |             | Yet To Start        |       |
+|[LP1](https://github.com/elvis-darko/Training-and-Apprenticeship-Portfolio-Projects/tree/main/INDIAN-STARTUP-ECOSYSTEM-FUNDING)|     [Indian Start-up Ecosystem Funding - Data Analysis Project](https://github.com/elvis-darko/Training-and-Apprenticeship-Portfolio-Projects/tree/main/INDIAN-STARTUP-ECOSYSTEM-FUNDING)        |  This Project analyzes funding received by start-ups in India from 2018 to 2021. Analysis is made in a Jupyter notebook. Microsoft Power BI is used for insights visualizatons       |  Ongoing      |  Jupyter Notebook, Python, Power BI|
+|LP2| Store Sales - Time Series Forecasting - Regression Project           |    In this project time series forecasting project, I predict store sales on data from Corporation Favorita, a large Ecuadorian-based grocery retailer. Specifically, I build a model that more accurately predicts the unit sales for thousands of items sold at different Favorita stores.       | Yet To Start        |    ---   |
 |LP3|              |             | Yet To Start        |       |
 |LP4|              |             |  Yet To Start       |       |
 |LP5|              |             |  Yet To Start       |       |
