@@ -12,11 +12,42 @@ As the Data Analyst for this project, We will develop a null and alternate hypot
 
 
 ## SETUP
+Install the required packages locally to your computer.
+
+It is recommended that you run a python version above 3.0. 
+You can download the required python version ["here"]((https://www.python.org/)).
+
+Use these recommended steps to set up your local machine for this project:
+
+1. **Create the Python's virtual environment** 
+This will isolate the required libraries of the project to avoid conflicts;
+
+python3 -m venv venv
 
 
+2. **Activate the Python's virtual environment** 
+This will ensure that the Python kernel & libraries will be those of the created isolated environment;
+
+- for windows : 
+            venv\Scripts\activate
+
+- for Linux & MacOS :
+            source venv/bin/activate
+
+
+3. **Upgrade Pip** 
+Pip is the installed libraries/packages manager. Upgrading Pip will give an to up-to-date version that will work correctly;
+
+python -m pip install --upgrade pip
+
+
+4. **Install the required libraries/packages** 
+There are libraries and packages that are required for this project. These libraries and packages are listed in the `requirements.txt` file. The text file will allow you to import these libraries and packages into the python's scripts and notebooks without any issue.
+
+python -m pip install -r requirements.txt 
 
 ## APP EXECUTION
-
+  
 
 
 
