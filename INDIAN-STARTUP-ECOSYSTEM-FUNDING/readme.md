@@ -46,6 +46,7 @@ There are libraries and packages that are required for this project. These libra
 
 python -m pip install -r requirements.txt 
 
+
 ## APP EXECUTION
   
 
