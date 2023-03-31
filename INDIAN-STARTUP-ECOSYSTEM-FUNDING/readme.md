@@ -18,7 +18,7 @@ As the Data Analyst for this project, We will develop a null and alternate hypot
 It is recommended to have a Jupyter notebook or any other standard code editor on your local machine.<br />Install the required packages locally to your computer.
 
 It is recommended that you run a python version above 3.0. 
-You can download the required python version from ["here"]((https://www.python.org/)).
+You can download the required python version from ["here"](https://www.python.org/).
 
 Use these recommended steps to set up your local machine for this project:
 
