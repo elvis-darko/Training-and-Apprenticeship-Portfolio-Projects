@@ -8,7 +8,7 @@ As the Data Analyst for this project, We will develop a null and alternate hypot
 ## SUMMARY
 | Code      | Name        | Published Article |  Deployed App |
 |-----------|-------------|:-------------|:------|
-| LP 1      | Indian Start-up Ecosystem Funding - Data Analysis Project | Medium <br />LinkedIn | Jupyter Notebook<br />Power BI |
+| LP 1      | Indian Start-up Ecosystem Funding - Data Analysis Project | Medium <br />LinkedIn | [Jupyter Notebook](https://github.com/elvis-darko/Training-and-Apprenticeship-Portfolio-Projects/blob/main/INDIAN-STARTUP-ECOSYSTEM-FUNDING/INDIAN%20START-UP%20ECOSYSTEM%20FUNDING%20-%20EXPLORATORY%20DATA%20ANALYSIS.ipynb)<br />Power BI |
 
 
 
