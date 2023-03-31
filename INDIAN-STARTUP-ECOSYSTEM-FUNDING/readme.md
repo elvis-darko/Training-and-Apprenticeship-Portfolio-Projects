@@ -47,11 +47,6 @@ There are libraries and packages that are required for this project. These libra
 python -m pip install -r requirements.txt 
 
 
-## APP EXECUTION
-  
-
-
-
 ## TEAM ZURICH
 As part of the requirements for the training and apprenticeship program, this project was undertaken by a team of six(6) data analysts from different countries. Together, we formed Team Zurich. The project was undertaken with high collaboration, dedication and research.
 The team regularly met on Microsoft Teams and used WhatsApp Messenger for direct messaging outside meeting times. 
