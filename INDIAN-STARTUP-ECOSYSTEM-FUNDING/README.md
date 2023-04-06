@@ -15,7 +15,7 @@ As Data Analysts for this project, we ask business questions, explore the datase
 
 
 ## SETUP
-It is recommended to have a Jupyter notebook or any other standard code editor on your local machine.<br />Install the required packages locally to your computer.
+It is recommended to have a Jupyter Noteotebook or any other standard code editor on your local machine.<br />Install the required packages locally to your computer.
 
 It is recommended that you run a python version above 3.0. 
 You can download the required python version from [here](https://www.python.org/downloads/).
