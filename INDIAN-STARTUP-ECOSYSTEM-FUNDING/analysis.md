@@ -3,8 +3,7 @@ The following are insights we gained from our analysis of the Indian Startup eco
 
 It is important to note that Funding Year 2018 did not have an investor column. As such, upon merging all the datasets, we assigned "Unknown" to the Investor column in 2018.
 
-There were 2852 start-ups funded for the period and total funding received by start-ups was 
-US$ 280,102,446,757.83
+There were 2852 number of funds for the period. Total number of unique startups funded was 2200. 652 startups received multiple rounds of funding and total funding received by startups was US$ 280,102,446,757.83
 
 1. The top sectors that received the most funding were;
 - FinTech
@@ -22,26 +21,26 @@ US$ 280,102,446,757.83
 - Reliance
 - Byju's
 
-4. These were the top investors who made the highest number of investments
+4. These were the top investors who made the highest number of investments:
 - Inflection Point Ventures
 - Venture Catalysts
 - Mumbai Angel Network
 
 5. From our analysis we found out that funding trend was generally positive.
-- In 2019, funding drastically reduced at a rate of 92.74%
-- In 2020, there was an appreciation of funding. Investors increased funding at rate of 96.33%
-- In 2021, the funding momentum rose again by 49.31%
+- In 2019, funding drastically reduced at a rate of 48.12%
+- In 2020, there was an appreciation of funding. Investors increased funding at rate of 2626.20%
+- In 2021, the funding momentum rose again by 97.30%
 
 6. The commonst investment stage that investors made the highest number of funds available were:
-- Seed round
-- Series A
-- Pre-series A
+- Seed Round
+- Series A Round
+- Pre-series A Round
 
 7. These funding stages are the one that investors made the most funds available:
-- Debt Financing
-- Series C
-- Series B
-- Series D
+- Debt Financing 
+- Series C Round
+- Series B Round
+- Series D Round
 
 8. These investors were the biggest investors who invested most funds in a particular sector:
 - Silver Lake, Mubadala Investment Company
@@ -49,7 +48,7 @@ US$ 280,102,446,757.83
 - Facebook, Googel, Silver Lake
 - Sequoia Capital
 
-9. These are the cities that received the highest amount in funding from investors:
+9. These were the cities that received the highest amount in funding from investors:
 - Mumbai
 - Bengaluru
 - Gurgaon
