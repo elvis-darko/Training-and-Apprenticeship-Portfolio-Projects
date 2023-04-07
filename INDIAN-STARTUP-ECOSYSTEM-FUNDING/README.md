@@ -8,7 +8,7 @@ As Data Analysts for this project, we ask business questions, explore the datase
 ## SUMMARY
 | Code      | Name        | Published Article |  Deployed App |
 |-----------|-------------|:-------------|:------|
-| LP 1      | Indian Start-up Ecosystem Funding - Data Analysis Project | [Medium](https://medium.com/@el.darkoel/the-indian-start-up-ecosystem-an-analysis-of-funding-d234f84f13bb) <br />LinkedIn | [Jupyter Notebook](https://github.com/elvis-darko/Training-and-Apprenticeship-Portfolio-Projects/blob/main/INDIAN-STARTUP-ECOSYSTEM-FUNDING/INDIAN%20START-UP%20ECOSYSTEM%20FUNDING%20-%20EXPLORATORY%20DATA%20ANALYSIS.ipynb)<br />[Power BI](https://app.powerbi.com/groups/me/reports/d9972c7c-e3cb-4179-8273-ff602519514c/ReportSection) |
+| LP 1      | Indian Start-up Ecosystem Funding - Data Analysis Project | [Medium](https://medium.com/@el.darkoel/the-indian-start-up-ecosystem-an-analysis-of-funding-d234f84f13bb) <br />[LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7050151401053708288/)| [Jupyter Notebook](https://github.com/elvis-darko/Training-and-Apprenticeship-Portfolio-Projects/blob/main/INDIAN-STARTUP-ECOSYSTEM-FUNDING/INDIAN%20START-UP%20ECOSYSTEM%20FUNDING%20-%20EXPLORATORY%20DATA%20ANALYSIS.ipynb)<br />[Power BI](https://app.powerbi.com/groups/me/reports/d9972c7c-e3cb-4179-8273-ff602519514c/ReportSection) |
 
 
 
