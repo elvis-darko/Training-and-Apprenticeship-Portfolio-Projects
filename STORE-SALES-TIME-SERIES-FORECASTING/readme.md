@@ -3,6 +3,8 @@ In this time series forecasting project, I predict store sales on data from Corp
 
 Specifically, I build a model that more accurately predicts the unit sales for thousands of items sold at different Favorita stores
 
+The dataset is in a zip file within a folder called Dataset. The training and test data are in the zip file. The training data includes dates, store, and product information, whether that item was being promoted, as well as the sales numbers. Also, there are additional files which include supplementary information that may be useful in building my models.
+
 
 
 ## SUMMARY
