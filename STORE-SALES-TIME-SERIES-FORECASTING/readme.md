@@ -10,7 +10,7 @@ The dataset is in a zip file within a folder called Dataset. The training and te
 ## SUMMARY
 | Code      | Name        | Published Article |  Deployed App |
 |-----------|-------------|:-------------|:------|
-| LP 2      | Store Sales - Time Series Forecasting - Regression Project| Medium<br />LinkedIn | Jupyter Notebook |
+| LP 2      | Store Sales - Time Series Forecasting - Regression Project| Medium<br />LinkedIn | [Jupyter Notebook](https://github.com/elvis-darko/Training-and-Apprenticeship-Portfolio-Projects/blob/main/STORE-SALES-TIME-SERIES-FORECASTING/STORE-SALES-TIME-SERIES-FORECASTING-REGRESSION%20PROJECT.ipynb) |
 
 
 
