@@ -1,13 +1,14 @@
-In this project, we analyze funding received by startups in India from 2018 to 2021. Data for each year of funding is located in a separate csv file in the dataset provided. In these files are the startups' details, the funding amounts received, and the investors' information.
+## PROJECT DESCRIPTION
+In this Classification Project, I aim to find the likelihood of a customer leaving the company, the key indicators of churn as well as the retention strategies that can be implemented to avert this problem
 
-As Data Analysts for this project, we ask business questions, explore the datasets, clean and prepare the datasets, analyze the final prepared dataset and tell compelling stories with intuitive and appropraite visulaizations.
+As Data Analysts for this project, we ask business questions, explore the datasets, clean and prepare the datasets, analyze the final prepared dataset and build a machine learning model that predicts customers who may leave our company
 
 
 
 ## SUMMARY
 | Code      | Name        | Published Article |  Deployed App |
 |-----------|-------------|:-------------|:------|
-| LP 1      | Indian Start-up Ecosystem Funding - Data Analysis Project | [Medium](https://medium.com/@el.darkoel/the-indian-start-up-ecosystem-an-analysis-of-funding-d234f84f13bb) <br />[LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7050151401053708288/)| [Jupyter Notebook](https://github.com/elvis-darko/Training-and-Apprenticeship-Portfolio-Projects/blob/main/INDIAN-STARTUP-ECOSYSTEM-FUNDING/INDIAN%20START-UP%20ECOSYSTEM%20FUNDING%20-%20EXPLORATORY%20DATA%20ANALYSIS.ipynb)<br />[Power BI](https://app.powerbi.com/groups/me/reports/d9972c7c-e3cb-4179-8273-ff602519514c/ReportSection) |
+| LP 3      | Telecommunication Customer Attrition - Classification Project | Medium<br />LinkedIn| Jupyter Notebook|
 
 
 
@@ -44,3 +45,8 @@ Use these recommended steps to set up your local machine for this project:
 4. **Install the required libraries/packages :**<br />There are libraries and packages that are required for this project. These libraries and packages are listed in the `requirements.txt` file.<br />The text file will allow you to import these libraries and packages into the python's scripts and notebooks without any issue.
 
             python -m pip install -r requirements.txt 
+
+
+
+## EVALUATION
+
