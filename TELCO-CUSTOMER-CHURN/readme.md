@@ -8,7 +8,7 @@ As Data Analysts for this project, we ask business questions, explore the datase
 ## SUMMARY
 | Code      | Name        | Published Article |  Deployed App |
 |-----------|-------------|:-------------|:------|
-| LP 3      | Telecommunication Customer Attrition - Classification Project | Medium<br />LinkedIn| Jupyter Notebook|
+| LP 3      | Telecommunication Customer Attrition - Classification Project | [Medium](https://medium.com/@el.darkoel/telecommunication-customer-churn-70414d85c97c)| Jupyter Notebook|
 
 
 
