@@ -1,5 +1,9 @@
 ## PROJECT DESCRIPTION
+In this project, I will embed the already-built models from the Regression and Classification projects into a Graphic User Interface (GUI).
 
+Model deployment forms part of the CRISP-DM framework and its importance cannot be overlooked. Model Deployment is the method by which a machine learning model is integrated into an existing production environment to make practical business decisions based on data.
+
+To get the most value out of the machine learning models, it is important I seamlessly deploy them into production so a business or client can start using them to make practical decisions.
 
 ## SUMMARY
 | Code      | Name        | Published Article |  Deployed App |
