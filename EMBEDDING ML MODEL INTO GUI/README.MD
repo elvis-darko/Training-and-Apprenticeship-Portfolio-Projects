@@ -8,7 +8,7 @@ To get the most value out of the machine learning models, it is important I seam
 ## SUMMARY
 | Code      | Name        | Published Article |  Deployed App |
 |-----------|-------------|:-------------|:------|
-|P4         | Embedding Machine Learning Model into GUI | Medium| STREAMLIT<br />GRADIO|
+|P4         | Embedding Machine Learning Model into GUI | MEDIUM| STREAMLIT<br />GRADIO|
 
 
 
