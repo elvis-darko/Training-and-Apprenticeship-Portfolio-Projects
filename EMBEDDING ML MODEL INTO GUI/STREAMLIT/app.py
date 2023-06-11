@@ -11,9 +11,14 @@ import numpy as np
 
 # Enter the title and sub-header of app
 st.title("STORE FAVORITA SALES FORECAST")
-st.subheader("Peroidic Sales")
+st.subheader("Peroidic Sales Predictions")
 
 # Ener name of officer
 name = st.text_input(label="Please enter you full name")
+
+print(f"[info] My name is : {name}")
+
+
+
 
 
