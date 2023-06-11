@@ -13,8 +13,10 @@ import numpy as np
 st.title("STORE FAVORITA SALES FORECAST")
 st.subheader("Peroidic Sales Predictions")
 
-# Ener name of officer
-name = st.text_input(label="Please enter you full name")
+# Enter info with streamlit form
+with st.form("prediction_form") as form:
+    name = st.text_input(label="Please enter you full name")
+  
 
 print(f"[info] My name is : {name}")
 
