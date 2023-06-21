@@ -1,14 +1,15 @@
 import streamlit as st
 import pandas as pd
 import joblib
-from sklearn.preprocessing import OrdinalEncoder
+#from sklearn.preprocessing import OrdinalEncoder
+from category_encoders.binary import BinaryEncoder
 from PIL import Image
 
 # Set the page title and configuration
-st.set_page_config(page_title="Item Price Prediction App")
+st.set_page_config(page_title="STORE FAVORITA")
 
 # Load the saved model
-model = joblib.load(r"D:\Projects\LP 2-Linear Regression Project\best_model.pkl")
+model = joblib.load(r"C:\Users\elvis_d\DATA_ANALYTICS\GITHUB\Training-and-Apprenticeship-Portfolio-Projects\EMBEDDING ML MODEL INTO GUI\STREAMLIT\Assets\sales_predict.joblib")
 
 # Define the input and output interfaces for the Streamlit app
 st.title("Item Price Prediction App")
@@ -20,13 +21,13 @@ def welcome_page():
     st.write("This app predicts the price of items based on user input.")
 
     # Add an image
-    image = Image.open(r"D:/Projects/foundamental of streamlit/R.jpg")
+    image = Image.open(r"C:\Users\elvis_d\DATA_ANALYTICS\GITHUB\Training-and-Apprenticeship-Portfolio-Projects\EMBEDDING ML MODEL INTO GUI\STREAMLIT\corporacion.jpg")
     st.image(image)
 
 # Page 2: Prediction Page
 def prediction_page():
     # Add custom for the background image
-    image = Image.open(r"C:/Users/asus/Desktop/scroll-down_2_orig.png")
+    image = Image.open(r"C:\Users\elvis_d\DATA_ANALYTICS\GITHUB\Training-and-Apprenticeship-Portfolio-Projects\EMBEDDING ML MODEL INTO GUI\STREAMLIT\corporacion.jpg")
     st.image(image)
 
     # Add a header and description for the prediction page
@@ -57,12 +58,14 @@ def prediction_page():
     }
     store_nbr = st.sidebar.selectbox("Store Number", list(store_nbr_options.keys()))
     transactions = st.sidebar.number_input("Transactions", min_value=1, max_value=10)
-    transferred = st.sidebar.selectbox("Transferred", [True, False])
+    #transferred = st.sidebar.selectbox("Transferred", [True, False])
     holiday_type_options = ["Normal", "Event", "Holiday", "", "Transfer"]
     holiday_type = st.sidebar.selectbox("Holiday Type", holiday_type_options)
     year = st.sidebar.number_input("Year", min_value=2000, max_value=2100)
     month = st.sidebar.number_input('Month', min_value=1, max_value=12)
     day = st.sidebar.number_input('Day', min_value=1, max_value=31)
+    trans_per_oil = transactions / dcoilwtico
+
 
     # Create a DataFrame with the user input
     input_data = {
@@ -73,7 +76,7 @@ def prediction_page():
         "sales": [sales],
         "store_nbr": [store_nbr_options[store_nbr]],
         "transactions": [transactions],
-        "transferred": [transferred],
+        #"transferred": [transferred],
         "holiday_type": [holiday_type],
         "year": [year],
         "month": [month],
