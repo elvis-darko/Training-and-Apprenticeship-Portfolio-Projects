@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
-#from sklearn.preprocessing import OrdinalEncoder
-from category_encoders.binary import BinaryEncoder
+from sklearn.preprocessing import OrdinalEncoder
 from PIL import Image
 
 # Set the page title and configuration
@@ -58,13 +57,12 @@ def prediction_page():
     }
     store_nbr = st.sidebar.selectbox("Store Number", list(store_nbr_options.keys()))
     transactions = st.sidebar.number_input("Transactions", min_value=1, max_value=10)
-    #transferred = st.sidebar.selectbox("Transferred", [True, False])
+    transferred = st.sidebar.selectbox("Transferred", [True, False])
     holiday_type_options = ["Normal", "Event", "Holiday", "", "Transfer"]
     holiday_type = st.sidebar.selectbox("Holiday Type", holiday_type_options)
     year = st.sidebar.number_input("Year", min_value=2000, max_value=2100)
     month = st.sidebar.number_input('Month', min_value=1, max_value=12)
     day = st.sidebar.number_input('Day', min_value=1, max_value=31)
-    trans_per_oil = transactions / dcoilwtico
 
 
     # Create a DataFrame with the user input
@@ -76,7 +74,7 @@ def prediction_page():
         "sales": [sales],
         "store_nbr": [store_nbr_options[store_nbr]],
         "transactions": [transactions],
-        #"transferred": [transferred],
+        "transferred": [transferred],
         "holiday_type": [holiday_type],
         "year": [year],
         "month": [month],
@@ -86,11 +84,11 @@ def prediction_page():
 
     # Encode the categorical features in the input data
     encoder = OrdinalEncoder()
-    encoder.fit(input_df[['city', 'family', 'onpromotion', 'transferred', 'holiday_type']])
+    encoder.fit(input_df[['city', 'family', 'transferred', 'holiday_type']])
 
     # Prepare the input data for prediction
-    encoded_features = encoder.transform(input_df[['city', 'family', 'onpromotion', 'transferred', 'holiday_type']])
-    input_df[['city', 'family', 'onpromotion', 'transferred', 'holiday_type']] = encoded_features
+    encoded_features = encoder.transform(input_df[['city', 'family', 'transferred', 'holiday_type']])
+    input_df[['city', 'family', 'transferred', 'holiday_type']] = encoded_features
 
     # Make the prediction
     def make_prediction():
