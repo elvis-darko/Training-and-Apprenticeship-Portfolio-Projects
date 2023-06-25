@@ -5,7 +5,7 @@ The App is designed to predict customers who will continue or stop subscribing t
 ## SUMMARY
 | Code      | Name        | Published Article |  Deployed App |
 |-----------|-------------|:-------------|:------|
-| P4 - B     | Embedding Classfication Model into Gradio | Medium|Gradio|
+| P4 - B     | Embedding Classfication Model into GUI| Medium|Gradio|
 
 
 
