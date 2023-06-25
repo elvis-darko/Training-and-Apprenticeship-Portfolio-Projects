@@ -1,5 +1,6 @@
 ## PROJECT DESCRIPTION
-
+In this section of the project, I seek to build an interactive app using Gradio. The Gradio app will be used to make predictions using the submitted classification machine learning model in LP3 (Telecommunication Customer Churn).
+The App is designed to predict customers who will continue or stop subscribing to the services and products of the telecommunication company.
 
 ## SUMMARY
 | Code      | Name        | Published Article |  Deployed App |
