@@ -13,7 +13,7 @@ model = joblib.load(r"C:\Users\elvis_d\DATA_ANALYTICS\GITHUB\Training-and-Appren
 # Define the input and output interfaces for the Streamlit app
 st.title("Item Price Prediction App")
 
-# Page 1: Welcome Page
+# Welcome Page
 def welcome_page():
     # Add a header and description
     st.header("Welcome!")
@@ -26,6 +26,7 @@ def welcome_page():
 # Employee Data Entry Page
 def employee_data():
     # Enter info with streamlit form
+    st.header("Employee ID Page")
     with st.form("employee_form") as form:
         name = st.text_input(label="Please enter you full name")
         role = st.text_input(label="Please enter your role")
@@ -33,7 +34,7 @@ def employee_data():
         submit = st.form_submit_button()
     
 
-# Page 2: Prediction Page
+# Prediction Page
 def prediction_page():
     # Add custom for the background image
     image = Image.open(r"C:\Users\elvis_d\DATA_ANALYTICS\GITHUB\Training-and-Apprenticeship-Portfolio-Projects\EMBEDDING ML MODEL INTO GUI\STREAMLIT\corporacion.jpg")
@@ -126,7 +127,7 @@ def main():
     if page == "Welcome":
         welcome_page(),
     elif page == "Employee Data":
-        employee_data(),
+            employee_data(),
     elif page == "Prediction":
         prediction_page()
 
