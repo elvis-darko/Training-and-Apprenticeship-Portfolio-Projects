@@ -23,6 +23,16 @@ def welcome_page():
     image = Image.open(r"C:\Users\elvis_d\DATA_ANALYTICS\GITHUB\Training-and-Apprenticeship-Portfolio-Projects\EMBEDDING ML MODEL INTO GUI\STREAMLIT\corporacion.jpg")
     st.image(image)
 
+# Employee Data Entry Page
+def employee_data():
+    # Enter info with streamlit form
+    with st.form("employee_form") as form:
+        name = st.text_input(label="Please enter you full name")
+        role = st.text_input(label="Please enter your role")
+        staff_id = st.number_input(label="Please enter your employee ID")
+        submit = st.form_submit_button()
+    
+
 # Page 2: Prediction Page
 def prediction_page():
     # Add custom for the background image
@@ -110,11 +120,13 @@ def prediction_page():
 # App entry point
 def main():
     # Render the welcome page by default
-    page = st.sidebar.radio("Navigation", ("Welcome", "Prediction"))
+    page = st.sidebar.radio("Navigation", ("Welcome", "Emplyee Data", "Prediction"))
 
     # Render the selected page based on user input
     if page == "Welcome":
-        welcome_page()
+        welcome_page(),
+    elif page == "Employee Data":
+        employee_data(),
     elif page == "Prediction":
         prediction_page()
 
