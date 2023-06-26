@@ -127,7 +127,7 @@ def main():
     if page == "Welcome":
         welcome_page(),
     elif page == "Employee Data":
-            employee_data(),
+        employee_data(),
     elif page == "Prediction":
         prediction_page()
 
