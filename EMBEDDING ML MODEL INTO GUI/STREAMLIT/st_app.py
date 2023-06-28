@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
-from sklearn.preprocessing import OrdinalEncoder
+from sklearn.preprocessing import LabelEncoder
 from PIL import Image
 
 # Set the page title and configuration
@@ -58,7 +58,7 @@ def prediction_page():
                       "SCHOOL AND OFFICE SUPPLIES", "SEAFOOD"]
     family = st.sidebar.selectbox("Family", family_options)
     onpromotion = st.sidebar.selectbox("On Promotion", [True, False])
-    sales = st.sidebar.number_input("Sales")
+    #sales = st.sidebar.number_input("Sales")
     store_nbr_options = {
         "A": 1,
         "B": 2,
@@ -82,7 +82,7 @@ def prediction_page():
         "dcoilwtico": [dcoilwtico],
         "family": [family],
         "onpromotion": [onpromotion],
-        "sales": [sales],
+        #"sales": [sales],
         "store_nbr": [store_nbr_options[store_nbr]],
         "transactions": [transactions],
         "transferred": [transferred],
@@ -94,7 +94,7 @@ def prediction_page():
     input_df = pd.DataFrame(input_data)
 
     # Encode the categorical features in the input data
-    encoder = OrdinalEncoder()
+    encoder = LabelEncoder()
     encoder.fit(input_df[['city', 'family', 'transferred', 'holiday_type']])
 
     # Prepare the input data for prediction
