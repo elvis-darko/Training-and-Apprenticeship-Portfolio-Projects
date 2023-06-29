@@ -5,6 +5,8 @@ In this project, I finetune a pre-trained machine learning model to assess if a 
 
 This project serves as an introduction to Unstructured data exploitation, especially Natural Language Processing data, using ML.
 
+The fine-tuned machine learning model will be used to used to create a Gradio app that will be hosted on Hugging Face.
+
 
 ## About
 The data comes from tweets collected and classified through Crowdbreaks.org [Muller, Martin M., and Marcel Salathe. "Crowdbreaks: Tracking Health Trends Using Public Social Media Data and Crowdsourcing." Frontiers in public health 7 (2019).]. Tweets have been classified as pro-vaccine (1), neutral (0) or anti-vaccine (-1). The tweets have had usernames and web addresses removed.
@@ -32,10 +34,6 @@ Files available for download are:
 
 **NLP_Primer_twitter_challenge.ipynb** - is a starter notebook to help you make your first submission on this challenge.
 
-
-## Assignments
-Find the list of assignments below:
-- [Zindi NLP Challenge](/zindi_challenge/)
 
 ## Setup
 Install the required packages to be able to run the evaluation locally.
