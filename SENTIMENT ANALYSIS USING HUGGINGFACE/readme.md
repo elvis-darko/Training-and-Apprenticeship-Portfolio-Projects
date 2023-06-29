@@ -1,7 +1,7 @@
 # PROJECT: Natural Language Processing - SENTIMENT ANALYSIS USING HUGGING FACE
 
 ## Description 
-In this project, I develop a machine learning model to assess if a Twitter post related to vaccinations is positive, neutral, or negative. This solution could help governments and other public health actors monitor public sentiment towards COVID-19 vaccinations and help improve public health policy, vaccine communication strategies, and vaccination programs across the world.
+In this project, I finetune a pre-trained machine learning model to assess if a Twitter post related to vaccinations is positive, neutral, or negative. This solution could help governments and other public health actors monitor public sentiment towards COVID-19 vaccinations and help improve public health policy, vaccine communication strategies, and vaccination programs across the world.
 
 This project serves as an introduction to Unstructured data exploitation, especially Natural Language Processing data, using ML.
 
@@ -9,7 +9,7 @@ This project serves as an introduction to Unstructured data exploitation, especi
 ## About
 The data comes from tweets collected and classified through Crowdbreaks.org [Muller, Martin M., and Marcel Salathe. "Crowdbreaks: Tracking Health Trends Using Public Social Media Data and Crowdsourcing." Frontiers in public health 7 (2019).]. Tweets have been classified as pro-vaccine (1), neutral (0) or anti-vaccine (-1). The tweets have had usernames and web addresses removed.
 
-The objective of this challenge is to develop a machine learning model to assess if a twitter post that is related to vaccinations is positive, neutral, or negative.
+The objective of this project is to develop a machine learning model to assess if a twitter post that is related to vaccinations is positive, neutral, or negative.
 
 **Variable definition:**
 
@@ -67,6 +67,10 @@ The both long command-lines have a same structure, they pipe multiple commands u
 1. [Introduction to NLP: Playlist](https://www.youtube.com/playlist?list=PLM8wYQRetTxCCURc1zaoxo9pTsoov3ipY)
 <!-- 1. [](https://www.youtube.com/)
 1. [](https://www.youtube.com/) -->
+[Finetune Pre-trained Huggingface model](https://medium.com/mlearning-ai/fine-tuning-bert-for-tweets-classification-ft-hugging-face-8afebadd5dbf)
+[Creating Gradio App](https://huggingface.co/course/chapter9/1)
+Upload your Hugging Face model (and pipeline), and Deploy your Gradio app on the HuggingFace platform. [Read more](https://huggingface.co/docs/hub/models-uploading)
+Dockerize your Gradio app to get it ready to be deployed to any cloud hub. [Watch this](https://www.youtube.com/watch?v=f6zJwK-pCJo)
 
 ## Evaluation
 The evaluation metric for this challenge is the **Root Mean Squared Error**.
