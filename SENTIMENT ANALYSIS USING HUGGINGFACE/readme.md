@@ -7,6 +7,10 @@ This project serves as an introduction to Unstructured data exploitation, especi
 
 The fine-tuned machine learning model will be used to used to create a Gradio app that will be hosted on Hugging Face.
 
+| Code      | Name        | Published Article |  Deployed App |
+|-----------|-------------|:-------------|:------|
+| LP 5     | The Sentiment Analysis Project - Natural Language Processing| Medium<br />LinkedIn| Gradio App - Hugging Face |
+
 
 ## About
 The data comes from tweets collected and classified through Crowdbreaks.org [Muller, Martin M., and Marcel Salathe. "Crowdbreaks: Tracking Health Trends Using Public Social Media Data and Crowdsourcing." Frontiers in public health 7 (2019).]. Tweets have been classified as pro-vaccine (1), neutral (0) or anti-vaccine (-1). The tweets have had usernames and web addresses removed.
