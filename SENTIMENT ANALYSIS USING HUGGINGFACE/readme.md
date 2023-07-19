@@ -36,8 +36,6 @@ Files available for download are:
 
 **SampleSubmission.csv** - is an example of what your submission file should look like. The order of the rows does not matter, but the names of the ID must be correct. Values in the 'label' column should range between -1 and 1.
 
-**NLP_Primer_twitter_challenge.ipynb** - is a starter notebook to help you make your first submission on this challenge.
-
 
 ## Setup
 Install the required packages to be able to run the evaluation locally.
@@ -68,7 +66,7 @@ The both long command-lines have a same structure, they pipe multiple commands u
 1. [Fine-Tuning-DistilBert - Hugging Face Transformer for Poem Sentiment Prediction | NLP](https://www.youtube.com/watch?v=zcW2HouIIQg)
 1. [Introduction to NLP: Playlist](https://www.youtube.com/playlist?list=PLM8wYQRetTxCCURc1zaoxo9pTsoov3ipY)
 1. [Finetune Pre-trained Huggingface model](https://medium.com/mlearning-ai/fine-tuning-bert-for-tweets-classification-ft-hugging-face-8afebadd5dbf)
-[Creating Gradio App](https://huggingface.co/course/chapter9/1)
+1. [Creating Gradio App](https://huggingface.co/course/chapter9/1)
 1. Upload your Hugging Face model (and pipeline), and Deploy your Gradio app on the HuggingFace platform. [Read more](https://huggingface.co/docs/hub/models-uploading)
 1. Dockerize your Gradio app to get it ready to be deployed to any cloud hub. [Watch this](https://www.youtube.com/watch?v=f6zJwK-pCJo)
 
