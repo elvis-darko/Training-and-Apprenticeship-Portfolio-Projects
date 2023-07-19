@@ -36,8 +36,6 @@ Files available for download are:
 
 **SampleSubmission.csv** - is an example of what your submission file should look like. The order of the rows does not matter, but the names of the ID must be correct. Values in the 'label' column should range between -1 and 1.
 
-**NLP_Primer_twitter_challenge.ipynb** - is a starter notebook to help you make your first submission on this challenge.
-
 
 ## Setup
 Install the required packages to be able to run the evaluation locally.
