@@ -9,7 +9,7 @@ The fine-tuned machine learning model will be used to used to create a Gradio ap
 
 | Code      | Name        | Published Article |  Deployed App |
 |-----------|-------------|:-------------|:------|
-| LP 5     | The Sentiment Analysis Project - Natural Language Processing| Medium<br />LinkedIn| Gradio App - Hugging Face |
+| LP 5     | The Sentiment Analysis Project - Natural Language Processing| Medium<br />LinkedIn| Gradio App<br />Streamlit App |
 
 
 ## About
