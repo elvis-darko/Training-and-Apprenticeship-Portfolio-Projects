@@ -1,4 +1,0 @@
-pandas
-lxml
-markdown
-pytest
