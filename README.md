@@ -1,9 +1,12 @@
 # ABOUT REPOSITORY
  This Repository contains projects that I undertook during the Project Phase of my Data Analytics Training and Apprenticeship at Azubi Africa.
+ 
+ Each link leads to a different repo where the files for the project can be found.
 
+ **NOTE:** All the projects and accompanying files were previously located in this same repo. After careful thought and consideration, I decided to create new repo for each project. This will make sure that this repo only acts as a directory page to other repos that contain the different projects. That explains why the newly created project repos have less commits 
 
 ## DESCRIPTION OF PROJECTS
-The table below shows the names, description, status and tools used for projects.
+The table below shows the names, description, status and articles for projects.
 
 | S/N | PROJECT NAME | DESCRIPTION | STATUS | ARTICLE |
 |-----|--------------|-------------|---------|-------|
