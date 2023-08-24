@@ -3,7 +3,7 @@
  
  Each link leads to a different repo where the files for the selected  project can be found.
 
- **NOTE:** All the projects and accompanying files were previously located in this same repo. After careful thought and consideration, I decided to create new repo for each project. This will make sure that this repo only acts as a directory page to other repos that contain the different projects. That explains why the newly created project repos have less commits 
+ **NOTE:** All the projects and accompanying files were previously located in this same repo. After careful thought and consideration, I decided to create new repo for each project. This will make sure that this repo only acts as a directory page to other repos that contain the different projects. That explains why the newly created project repos have less commits.
 
 ## DESCRIPTION OF PROJECTS
 The table below shows the names, description, status and articles for projects.
